@@ -9,28 +9,48 @@
 // }
 body {
     background-color: #171727;
-}
+    main {
+        .welcome {
+            // background-color: #fff;
+            // width: 800px;
+            margin-top: 55px;
+            // margin-right: 80px;
+
+        }
+        h4 {
+            color:#8585B6;
+        }
+        h2 {
+            color: #A676E0;
+        }
+        p {
+            color:#8585B6;
+ 
+        }
+    }
+
 /* The Navigation bar section  */
-nav {
-    .navbar-brand {
-        color: #8585B6 !important;
-    }
-    .navbar-collapse,
-    .navbar-collapse .navbar-nav .nav-item .nav-link {
-        background-color: #171727;
-        color: #8585B6;
-    }
+    nav {
+        .navbar-brand {
+            color: #8585B6 !important;
+        }
+        .navbar-collapse,
+        .navbar-collapse .navbar-nav .nav-item .nav-link {
+            background-color: #171727;
+            color: #8585B6;
+        }
 
-    .navbar-toggler {
-    border:0px;
-    }
-    .navbar-toggler:focus,
-    .navbar-toggler:active,
-    .navbar-toggler-icon:focus {
-        outline: none;
-        box-shadow: none;
-    }
+        .navbar-toggler {
+        border:0px;
+        }
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler-icon:focus {
+            outline: none;
+            box-shadow: none;
+        }
 
 
-    }
+        }
 
+}

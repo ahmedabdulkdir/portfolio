@@ -7,23 +7,34 @@
 
 body {
   background-color: #171727;
+  /* The Navigation bar section  */
 }
-
-/* The Navigation bar section  */
-nav .navbar-brand {
+body main .welcome {
+  margin-top: 55px;
+}
+body main h4 {
+  color: #8585B6;
+}
+body main h2 {
+  color: #A676E0;
+}
+body main p {
+  color: #8585B6;
+}
+body nav .navbar-brand {
   color: #8585B6 !important;
 }
-nav .navbar-collapse,
-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+body nav .navbar-collapse,
+body nav .navbar-collapse .navbar-nav .nav-item .nav-link {
   background-color: #171727;
   color: #8585B6;
 }
-nav .navbar-toggler {
+body nav .navbar-toggler {
   border: 0px;
 }
-nav .navbar-toggler:focus,
-nav .navbar-toggler:active,
-nav .navbar-toggler-icon:focus {
+body nav .navbar-toggler:focus,
+body nav .navbar-toggler:active,
+body nav .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
 }
