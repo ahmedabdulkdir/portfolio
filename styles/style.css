@@ -5,21 +5,10 @@
   list-style-type: none;
 }
 
+/* Variables */
 body {
   background-color: #171727;
   /* The Navigation bar section  */
-}
-body main .welcome {
-  margin-top: 55px;
-}
-body main h4 {
-  color: #8585B6;
-}
-body main h2 {
-  color: #A676E0;
-}
-body main p {
-  color: #8585B6;
 }
 body nav .navbar-brand {
   color: #8585B6 !important;
@@ -38,5 +27,55 @@ body nav .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
 }
+body main .welcome {
+  margin-top: 55px;
+}
+body main .welcome h4 {
+  color: #8585B6;
+}
+body main .welcome h2 {
+  color: #A676E0;
+  font-size: 2em;
+}
+body main .welcome p {
+  color: #8585B6;
+}
+body main .welcome button {
+  width: 95px;
+  margin: 15px;
+  margin-left: 0;
+  padding: 5px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: #A676E0;
+  border: none;
+}
+body main .welcome button:hover {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+body main .btn-resume {
+  background-color: transparent;
+  color: #A676E0;
+  background-color: transparent !important;
+  border: 1px solid #A676E0 !important;
+}
+body main .about, body main .projects,
+body main .skills, body main .contact {
+  color: #C1C1D8;
+  margin-top: 80px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */
