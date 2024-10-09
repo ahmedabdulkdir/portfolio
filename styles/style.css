@@ -4,11 +4,11 @@
     padding: 0;
 }
 :root {
-    --heading-color: #A676E0;
-    --text-color: #FFFFFF;
-    --text-color: #8585B6;
-    --number-color-highlight: #c9a6f3;
-    --main-bg-color: #171727;
+    --heading-color: #121212;
+    --text-color: #404040;
+    --number-color-highlight: #000000;
+    /* --main-bg-color: #171727; old background-color */
+    --main-bg-color: #f1f1f1;
     --border-line-color: #093e57;
 
     /*#C1C1D8, #8585B6  */
@@ -48,7 +48,7 @@ nav ul li a {
     display: inline-block;
     text-decoration: none;
     padding:  10px 15px 0 10px;
-    color: var(--text-color);
+    color: var(--heading-color);
     box-sizing: border-box;
     border: 2px solid transparent;
 }
@@ -62,6 +62,7 @@ nav ul li a:hover {
 }
 .content {
     display: flex;
+    flex-direction: row;
     column-gap: 50px;
 
 }
@@ -137,5 +138,9 @@ button:hover {
 }
 
 span {
+    color: var(--heading-color);
+}
+
+.about, .projects, .skills, .contact {
     color: var(--heading-color);
 }

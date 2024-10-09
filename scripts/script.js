@@ -1,6 +1,6 @@
 function displayNumberLine(){
     const mainHeight = document.getElementById('main').offsetHeight;    
-    const lines = Math.ceil(mainHeight / 27.4);
+    const lines = Math.ceil(mainHeight / 26.5);
     let numberLine = '';
     for (i = 1; i < lines; i++) {
         if (i < 10) {
